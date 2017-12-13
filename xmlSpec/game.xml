@@ -1,0 +1,626 @@
+<?xml version = "1.0"?>
+<GameData>
+<!-- screenTitle is also used to identify you and your animation. 
+     So make sure to include your name as part of the screenTitle -->
+<title>Flappy Unicorn</title>
+<maxStringSize>50</maxStringSize>
+
+<frameCapOn>true</frameCapOn>
+<period>16</period>
+
+<maxFrames>700</maxFrames>
+<username>ashish</username>
+<numberOfStars>25</numberOfStars>
+<numberOfCoins>30</numberOfCoins>
+<window>
+  <width>800</width>
+  <height>500</height>  
+</window>
+<view>
+  <width>800</width>
+  <height>430</height>
+</view>
+
+<world>
+  <width>5000</width>
+  <height>450</height>
+</world>
+
+<hud>
+  <width>250</width>
+  <height>290</height>
+  <start x="20" y="100"/>
+  <Time>12</Time>
+</hud>
+<hud1>
+  <width>870</width>
+  <height>480</height>
+  <start x="0" y="0"/>
+  <Time>5</Time>
+</hud1>
+<poolhud>
+  <width>150</width>
+  <height>100</height>
+  <start x="700" y="10"/>
+</poolhud>
+<land>
+  <file>assets/layer1.png</file>
+  <factor>1</factor>
+  <transparency>true</transparency>
+</land>
+
+<tree>
+  <file>assets/layer2.png</file>
+  <factor>2</factor>
+  <transparency>true</transparency>
+</tree>
+
+<building>
+  <file>assets/layer3.png</file>
+  <factor>3</factor>
+  <transparency>true</transparency>
+</building>
+
+<shadow1>
+  <file>assets/layer4.png</file>
+  <factor>4</factor>
+  <transparency>true</transparency>
+</shadow1>
+
+<shadow2>
+  <file>assets/layer5.png</file>
+  <factor>5</factor>
+  <transparency>true</transparency>
+</shadow2>
+
+<shadow3>
+  <file>assets/layer6.png</file>
+  <factor>6</factor>
+  <transparency>true</transparency>
+</shadow3>
+
+<sun>
+  <file>assets/layer7.png</file>
+  <factor>7</factor>
+  <transparency>true</transparency>
+</sun>
+
+<sky>
+  <file>assets/layer8.png</file>
+  <factor>8</factor>
+  <transparency>true</transparency>
+</sky>
+
+<font name="font">
+  <file>fonts/arial.ttf</file>
+  <size>24</size>
+  <red>255</red>
+  <green>0</green>
+  <blue>0</blue>
+  <alpha>0</alpha>
+</font>
+<Mwall>
+  <file>assets/mdwall.png</file>
+  <startLoc x="1365" y="0"/>
+  <frames>8</frames>
+  <imageWidth>50</imageWidth>
+  <imageHeight>480</imageHeight>
+  <frameInterval>1500</frameInterval>
+  <speedX>0</speedX>
+  <speedY>0</speedY>
+  <transparency>false</transparency>
+</Mwall>
+<Mwall1>
+  <file>assets/mwall.png</file>
+  <startLoc x="1900" y="0"/>
+  <frames>8</frames>
+  <imageWidth>50</imageWidth>
+  <imageHeight>480</imageHeight>
+  <frameInterval>1450</frameInterval>
+  <speedX>0</speedX>
+  <speedY>0</speedY>
+  <transparency>false</transparency>
+</Mwall1>
+<Mwall2>
+  <file>assets/mwall.png</file>
+  <startLoc x="2330" y="0"/>
+  <frames>8</frames>
+  <imageWidth>50</imageWidth>
+  <imageHeight>480</imageHeight>
+  <frameInterval>1400</frameInterval>
+  <speedX>0</speedX>
+  <speedY>0</speedY>
+  <transparency>false</transparency>
+</Mwall2>
+<Mwall3>
+  <file>assets/mdwall.png</file>
+  <startLoc x="2740" y="0"/>
+  <frames>8</frames>
+  <imageWidth>50</imageWidth>
+  <imageHeight>480</imageHeight>
+  <frameInterval>1350</frameInterval>
+  <speedX>0</speedX>
+  <speedY>0</speedY>
+  <transparency>false</transparency>
+</Mwall3>
+<Mwall4>
+  <file>assets/twall.png</file>
+  <startLoc x="3030" y="0"/>
+  <frames>16</frames>
+  <imageWidth>50</imageWidth>
+  <imageHeight>480</imageHeight>
+  <frameInterval>1300</frameInterval>
+  <speedX>0</speedX>
+  <speedY>0</speedY>
+  <transparency>false</transparency>
+</Mwall4>
+<Mwall5>
+  <file>assets/mwall.png</file>
+  <startLoc x="3440" y="0"/>
+  <frames>8</frames>
+  <imageWidth>50</imageWidth>
+  <imageHeight>480</imageHeight>
+  <frameInterval>1250</frameInterval>
+  <speedX>0</speedX>
+  <speedY>0</speedY>
+  <transparency>false</transparency>
+</Mwall5>
+<Mwall6>
+  <file>assets/mdwall.png</file>
+  <startLoc x="3880" y="0"/>
+  <frames>8</frames>
+  <imageWidth>50</imageWidth>
+  <imageHeight>480</imageHeight>
+  <frameInterval>1200</frameInterval>
+  <speedX>0</speedX>
+  <speedY>0</speedY>
+  <transparency>false</transparency>
+</Mwall6>
+<Mwall7>
+  <file>assets/mwall.png</file>
+  <startLoc x="4160" y="0"/>
+  <frames>8</frames>
+  <imageWidth>50</imageWidth>
+  <imageHeight>480</imageHeight>
+  <frameInterval>1150</frameInterval>
+  <speedX>0</speedX>
+  <speedY>0</speedY>
+  <transparency>false</transparency>
+</Mwall7>
+<Mwall8>
+  <file>assets/twall.png</file>
+  <startLoc x="4415" y="0"/>
+  <frames>16</frames>
+  <imageWidth>50</imageWidth>
+  <imageHeight>480</imageHeight>
+  <frameInterval>1100</frameInterval>
+  <speedX>0</speedX>
+  <speedY>0</speedY>
+  <transparency>false</transparency>
+</Mwall8>
+<Mwall9>
+  <file>assets/mdwall.png</file>
+  <startLoc x="4600" y="0"/>
+  <frames>8</frames>
+  <imageWidth>50</imageWidth>
+  <imageHeight>480</imageHeight>
+  <frameInterval>1050</frameInterval>
+  <speedX>0</speedX>
+  <speedY>0</speedY>
+  <transparency>false</transparency>
+</Mwall9>
+
+
+<Tree>
+  <file>assets/tree.png</file>
+  <startLoc x="100" y="350"/>
+  <frames>50</frames>
+  <imageWidth>135</imageWidth>
+  <imageHeight>124</imageHeight>
+  <frameInterval>90</frameInterval>
+  <speedX>0</speedX>
+  <speedY>0</speedY>
+  <transparency>false</transparency>
+</Tree>
+
+<Tree1>
+  <file>assets/tree.png</file>
+  <startLoc x="750" y="350"/>
+  <frames>50</frames>
+  <imageWidth>135</imageWidth>
+  <imageHeight>124</imageHeight>
+  <frameInterval>90</frameInterval>
+  <speedX>0</speedX>
+  <speedY>0</speedY>
+  <transparency>false</transparency>
+</Tree1>
+
+<Tree2>
+  <file>assets/tree.png</file>
+  <startLoc x="1550" y="350"/>
+  <frames>50</frames>
+  <imageWidth>135</imageWidth>
+  <imageHeight>124</imageHeight>
+  <frameInterval>90</frameInterval>
+  <speedX>0</speedX>
+  <speedY>0</speedY>
+  <transparency>false</transparency>
+</Tree2>
+
+<Tree3>
+  <file>assets/tree.png</file>
+  <startLoc x="2150" y="350"/>
+  <frames>50</frames>
+  <imageWidth>135</imageWidth>
+  <imageHeight>124</imageHeight>
+  <frameInterval>90</frameInterval>
+  <speedX>0</speedX>
+  <speedY>0</speedY>
+  <transparency>false</transparency>
+</Tree3>
+
+<Tree4>
+  <file>assets/tree.png</file>
+  <startLoc x="2850" y="350"/>
+  <frames>50</frames>
+  <imageWidth>135</imageWidth>
+  <imageHeight>124</imageHeight>
+  <frameInterval>90</frameInterval>
+  <speedX>0</speedX>
+  <speedY>0</speedY>
+  <transparency>false</transparency>
+</Tree4>
+
+<Tree5>
+  <file>assets/tree.png</file>
+  <startLoc x="3550" y="350"/>
+  <frames>50</frames>
+  <imageWidth>135</imageWidth>
+  <imageHeight>124</imageHeight>
+  <frameInterval>90</frameInterval>
+  <speedX>0</speedX>
+  <speedY>0</speedY>
+  <transparency>false</transparency>
+</Tree5>
+
+<Tree6>
+  <file>assets/tree.png</file>
+  <startLoc x="4250" y="350"/>
+  <frames>50</frames>
+  <imageWidth>135</imageWidth>
+  <imageHeight>124</imageHeight>
+  <frameInterval>90</frameInterval>
+  <speedX>0</speedX>
+  <speedY>0</speedY>
+  <transparency>false</transparency>
+</Tree6>
+
+<Tree7>
+  <file>assets/tree.png</file>
+  <startLoc x="4700" y="350"/>
+  <frames>50</frames>
+  <imageWidth>135</imageWidth>
+  <imageHeight>124</imageHeight>
+  <frameInterval>90</frameInterval>
+  <speedX>0</speedX>
+  <speedY>0</speedY>
+  <transparency>false</transparency>
+</Tree7>
+
+<Horseright>
+  <file>assets/horse_right.png</file>
+  <startLoc x="60" y="40"/>
+  <frames>12</frames>
+  <imageWidth>128</imageWidth>
+  <imageHeight>90</imageHeight>
+  <frameInterval>50</frameInterval>
+  <bullet>icebullet</bullet>
+  <speedX>200</speedX>
+  <speedY>200</speedY>
+  <transparency>true</transparency>
+  <chunk>
+    <size>9</size>
+    <distance>200</distance>
+  </chunk>
+</Horseright>
+<Horseleft>
+  <file>assets/horse_left.png</file>
+  <startLoc x="30" y="140"/>
+  <frames>12</frames>
+  <imageWidth>128</imageWidth>
+  <imageHeight>90</imageHeight>
+  <frameInterval>50</frameInterval>
+  <bullet>icebullet</bullet>
+  <speedX>200</speedX>
+  <speedY>200</speedY>
+  <transparency>false</transparency>
+  <chunk>
+    <size>9</size>
+    <distance>200</distance>
+  </chunk>
+</Horseleft>
+<coin>
+  <file>assets/coin.png</file>
+  <startLoc x="4750" y="40"/>
+  <frames>5</frames>
+  <imageWidth>50</imageWidth>
+  <imageHeight>50</imageHeight>
+  <frameInterval>50</frameInterval>
+  <speedX>193</speedX>
+  <speedY>193</speedY>
+  <safeDistance>50</safeDistance>
+  <transparency>false</transparency>
+  <chunk>
+    <size>9</size>
+    <distance>200</distance>
+  </chunk>
+</coin>
+<Cake>
+  <file>assets/cake.png</file>
+  <startLoc x="4950" y="250"/>
+  <speedX>0</speedX>
+  <speedY>0</speedY>
+  <frames>1</frames>
+  <imageWidth>80</imageWidth>
+  <imageHeight>80</imageHeight>
+  <frameInterval>50</frameInterval>
+  <transparency>true</transparency>
+</Cake> 
+<Wall>
+  <file>assets/wall1.png</file>
+  <startLoc x="300" y="0"/>
+  <speedX>0</speedX>
+  <speedY>0</speedY>
+  <frames>1</frames>
+  <imageWidth>40</imageWidth>
+  <imageHeight>480</imageHeight>
+  <frameInterval>50</frameInterval>
+  <transparency>true</transparency>
+</Wall> 
+<Wall2>
+  <file>assets/wall2.png</file>
+  <startLoc x="600" y="0"/>
+  <speedX>0</speedX>
+  <speedY>0</speedY>
+  <frames>1</frames>
+  <imageWidth>40</imageWidth>
+  <imageHeight>480</imageHeight>
+  <frameInterval>50</frameInterval>
+  <transparency>true</transparency>
+</Wall2> 
+<Wall3>
+  <file>assets/wall1.png</file>
+  <startLoc x="975" y="0"/>
+  <speedX>0</speedX>
+  <speedY>0</speedY>
+  <frames>1</frames>
+  <imageWidth>40</imageWidth>
+  <imageHeight>480</imageHeight>
+  <frameInterval>50</frameInterval>
+  <transparency>true</transparency>
+</Wall3> 
+<Wall4>
+  <file>assets/wall.png</file>
+  <startLoc x="1720" y="0"/>
+  <speedX>0</speedX>
+  <speedY>0</speedY>
+  <frames>1</frames>
+  <imageWidth>40</imageWidth>
+  <imageHeight>480</imageHeight>
+  <frameInterval>50</frameInterval>
+  <transparency>true</transparency>
+</Wall4> 
+<Wall5>
+  <file>assets/wall2.png</file>
+  <startLoc x="2080" y="0"/>
+  <speedX>0</speedX>
+  <speedY>0</speedY>
+  <frames>1</frames>
+  <imageWidth>40</imageWidth>
+  <imageHeight>480</imageHeight>
+  <frameInterval>50</frameInterval>
+  <transparency>true</transparency>
+</Wall5> 
+<Wall6>
+  <file>assets/wall.png</file>
+  <startLoc x="2550" y="0"/>
+  <speedX>0</speedX>
+  <speedY>0</speedY>
+  <frames>1</frames>
+  <imageWidth>40</imageWidth>
+  <imageHeight>480</imageHeight>
+  <frameInterval>50</frameInterval>
+  <transparency>true</transparency>
+</Wall6> 
+<Wall7>
+  <file>assets/wall1.png</file>
+  <startLoc x="3230" y="0"/>
+  <speedX>0</speedX>
+  <speedY>0</speedY>
+  <frames>1</frames>
+  <imageWidth>40</imageWidth>
+  <imageHeight>480</imageHeight>
+  <frameInterval>50</frameInterval>
+  <transparency>true</transparency>
+</Wall7> 
+<Wall8>
+  <file>assets/wall.png</file>
+  <startLoc x="3730" y="0"/>
+  <speedX>0</speedX>
+  <speedY>0</speedY>
+  <frames>1</frames>
+  <imageWidth>40</imageWidth>
+  <imageHeight>480</imageHeight>
+  <frameInterval>50</frameInterval>
+  <transparency>true</transparency>
+</Wall8> 
+<Wall9>
+  <file>assets/wall.png</file>
+  <startLoc x="4040" y="0"/>
+  <speedX>0</speedX>
+  <speedY>0</speedY>
+  <frames>1</frames>
+  <imageWidth>40</imageWidth>
+  <imageHeight>480</imageHeight>
+  <frameInterval>50</frameInterval>
+  <transparency>true</transparency>
+</Wall9> 
+<Wall10>
+  <file>assets/wall1.png</file>
+  <startLoc x="4555" y="0"/>
+  <speedX>0</speedX>
+  <speedY>0</speedY>
+  <frames>1</frames>
+  <imageWidth>40</imageWidth>
+  <imageHeight>480</imageHeight>
+  <frameInterval>50</frameInterval>
+  <transparency>true</transparency>
+</Wall10>  
+<EWall3>
+  <file>assets/ewall1.png</file>
+  <startLoc x="975" y="0"/>
+  <speedX>0</speedX>
+  <speedY>0</speedY>
+  <frames>1</frames>
+  <imageWidth>40</imageWidth>
+  <imageHeight>480</imageHeight>
+  <frameInterval>50</frameInterval>
+  <transparency>true</transparency>
+  <chunk>
+    <size>9</size>
+    <distance>200</distance>
+  </chunk>
+</EWall3> 
+<EWall4>
+  <file>assets/ewall.png</file>
+  <startLoc x="1720" y="0"/>
+  <speedX>0</speedX>
+  <speedY>0</speedY>
+  <frames>1</frames>
+  <imageWidth>40</imageWidth>
+  <imageHeight>480</imageHeight>
+  <frameInterval>50</frameInterval>
+  <transparency>true</transparency>
+  <chunk>
+    <size>9</size>
+    <distance>200</distance>
+  </chunk>
+</EWall4> 
+<EWall5>
+  <file>assets/ewall2.png</file>
+  <startLoc x="2080" y="0"/>
+  <speedX>0</speedX>
+  <speedY>0</speedY>
+  <frames>1</frames>
+  <imageWidth>40</imageWidth>
+  <imageHeight>480</imageHeight>
+  <frameInterval>50</frameInterval>
+  <transparency>true</transparency>
+  <chunk>
+    <size>9</size>
+    <distance>200</distance>
+  </chunk>
+</EWall5> 
+<EWall6>
+  <file>assets/ewall.png</file>
+  <startLoc x="2550" y="0"/>
+  <speedX>0</speedX>
+  <speedY>0</speedY>
+  <frames>1</frames>
+  <imageWidth>40</imageWidth>
+  <imageHeight>480</imageHeight>
+  <frameInterval>50</frameInterval>
+  <transparency>true</transparency>
+  <chunk>
+    <size>9</size>
+    <distance>200</distance>
+  </chunk>
+</EWall6> 
+<EWall7>
+  <file>assets/ewall1.png</file>
+  <startLoc x="3230" y="0"/>
+  <speedX>0</speedX>
+  <speedY>0</speedY>
+  <frames>1</frames>
+  <imageWidth>40</imageWidth>
+  <imageHeight>480</imageHeight>
+  <frameInterval>50</frameInterval>
+  <transparency>true</transparency>
+  <chunk>
+    <size>9</size>
+    <distance>200</distance>
+  </chunk>
+</EWall7> 
+<EWall8>
+  <file>assets/ewall.png</file>
+  <startLoc x="3730" y="0"/>
+  <speedX>0</speedX>
+  <speedY>0</speedY>
+  <frames>1</frames>
+  <imageWidth>40</imageWidth>
+  <imageHeight>480</imageHeight>
+  <frameInterval>50</frameInterval>
+  <transparency>true</transparency>
+  <chunk>
+    <size>9</size>
+    <distance>200</distance>
+  </chunk>
+</EWall8> 
+<EWall9>
+  <file>assets/ewall.png</file>
+  <startLoc x="4040" y="0"/>
+  <speedX>0</speedX>
+  <speedY>0</speedY>
+  <frames>1</frames>
+  <imageWidth>40</imageWidth>
+  <imageHeight>480</imageHeight>
+  <frameInterval>50</frameInterval>
+  <transparency>true</transparency>
+  <chunk>
+    <size>9</size>
+    <distance>200</distance>
+  </chunk>
+</EWall9> 
+<EWall10>
+  <file>assets/fwall.png</file>
+  <startLoc x="4850" y="0"/>
+  <speedX>0</speedX>
+  <speedY>0</speedY>
+  <frames>1</frames>
+  <imageWidth>40</imageWidth>
+  <imageHeight>480</imageHeight>
+  <frameInterval>50</frameInterval>
+  <transparency>true</transparency>
+  <chunk>
+    <size>9</size>
+    <distance>200</distance>
+  </chunk>
+</EWall10> 
+<icebullet>
+  <file>assets/bullet.png</file>
+  <interval>300</interval>
+  <distance>320</distance>
+  <startLoc x="100" y="100"/>
+  <minSpeedX>200</minSpeedX>
+  <speedX>400</speedX>
+  <speedY>0</speedY>
+  <strategy>rectangular</strategy>
+  <transparency>true</transparency>
+  <chunk>
+    <size>9</size>
+    <distance>200</distance>
+  </chunk>
+</icebullet>
+<YellowStar>
+  <file>assets/yellowstar32.png</file>
+  <startLoc x="400" y="140"/>
+  <frames>1</frames>
+  <imageWidth>32</imageWidth>
+  <imageHeight>32</imageHeight>
+  <frameInterval>50</frameInterval>
+  <speedX>199</speedX>
+  <speedY>199</speedY>
+  <safeDistance>100</safeDistance>
+  <transparency>false</transparency>
+</YellowStar>
+</GameData>
